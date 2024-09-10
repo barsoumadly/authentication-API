@@ -3,7 +3,6 @@ import express from 'express';
 import { envVariables } from './config/envVariables.js';
 import connectToDatabase from './database/connectToDatabase.js';
 import authRoutes from './routes/auth.routes.js';
-import veiwRoutes from './routes/view.routes.js';
 
 const app = express();
 const port = envVariables.PORT;
