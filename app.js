@@ -15,7 +15,6 @@ app.use(express.json());
 app.use(express.static('./public'));
 
 app.use('/api/v1/auth', authRoutes);
-app.use(veiwRoutes);
 
 app.listen(port, async function () {
   try {
